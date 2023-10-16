@@ -1,0 +1,123 @@
+*, *::before, ::after{
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    box-sizing: border-box;
+    
+    
+    }
+    
+    .body {
+    font-family:'open  sanz',Arial, Helvetica, sans-serif;
+    background-color:#fff
+    }
+    
+    
+    .menu {
+    background-color: red;
+    height: 70%;
+    width: 100%;
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid #fff ;
+    box-shadow: 5px 0 10px rgb (0red,0green, 0blue,6.);
+    
+    }
+    
+    
+    .logo  {
+       color:#fff;
+       font-size: 38px;
+       padding: 0 80px;
+       font-weight: bold;
+    
+    
+    }
+    
+    
+    .menu_items {
+    display: flex;
+    list-style:none; 
+    margin-right:30px ;
+    
+    
+    }
+    
+    .menu items li {
+    border-radius: 3px; 
+    margin: 0 5px;
+    
+    }
+    
+    
+    .menu_items li a{
+     padding: 7px 13px;
+     text-decoration: none;
+     font-size: 17px;
+     display: block;
+     text-transform: uppercase;
+      color:#fff
+    
+    }
+    
+    .box {
+       display: flex;
+    
+      }
+     
+     .item {
+       display:  table-cell;
+       float:left;
+       width: 150px;
+       flex: 1;
+     }
+    
+    
+    
+     .columns {
+      display: inline-block;
+    
+      box-sizing: border-box;
+      margin: 20px;
+      padding: 30px;
+      -webkit-columns: 150px 1;
+      -moz-columns: 150px 1;
+      columns:1500px 1;
+      column-fill: auto;
+      column-gap: 50px;
+      background-color: burlywood;
+      border-radius: 5px;
+      font-size: 16px;
+     }
+    
+     * {
+      box-sizing: border-box;
+    }
+    
+    .columna {
+      float: left;
+      width: 33%;
+      padding-right: 5px;
+    }
+    
+    .fila::after {
+      content: "";
+      clear: both;
+      display: table;
+    }
+    
+    img {
+      /* Para que sea responsiva */
+      width: 100%;
+    }
+       
+    
+   
+    
+    
+  
+    
+    
+    
+    

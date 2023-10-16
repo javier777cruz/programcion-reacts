@@ -1,0 +1,44 @@
+.formCreate{
+    padding: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border: #000;
+    border-radius: 0.3em;
+    cursor: pointer; /* Cambia el tipo de cursor */
+    font-family: cursive;
+}
+
+
+.formCreate input{
+    padding: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border: #000 solid 2px;
+    border-radius: 0.3em;
+    cursor: pointer; /* Cambia el tipo de cursor */
+    font-family: cursive;
+}
+
+.formCreate label{
+    padding: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-family: cursive;
+    font-size: 2em;
+}
+
+.formCreate h1{
+    font-size: xx-large;
+    font-family: cursive;
+}
+
+.formCreate button{
+    font-size: large;
+    padding: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-family: cursive;
+    border-radius: 0.3em;
+    color: #fff;
+    background-color: #000;
+}

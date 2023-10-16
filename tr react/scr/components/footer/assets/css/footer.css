@@ -1,0 +1,55 @@
+/* ESTILOS FOOTER */
+
+.footer{
+    background-color: silver;
+    width: auto;
+    height: auto;
+}
+
+.footer1{
+    max-width: 150px;
+    max-height: 150px;
+    border-radius: 1.2em;
+    margin:auto;
+
+}
+.footer2{
+    width: 50%;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+}
+.footer3{
+    width: 30%;
+    vertical-align:middle;
+    text-align: center;
+    color: black;
+    font-size: x-large;
+    font-weight: 900;
+}
+
+.footer4{
+    width: 80px;
+    height: 80px;
+    margin-left: 20%;
+}
+
+.iconos{
+    width: 50px;
+    height: 50px;
+    background-color:silver;
+    margin-left: 15px;
+    margin-top: 15px;
+}
+
+#iconofb:hover{
+    background-color: blue;
+}
+
+#iconoinst:hover{
+    background-color:#ce32b9;
+}
+
+#iconolink:hover{
+    background-color: lightblue;
+}
